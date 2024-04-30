@@ -55,6 +55,10 @@ const circleColorArr = [
 해당 문제는 어른사자 문제이므로 풀이하지 않으셔도 무방합니다.
 다만, 현재 리액트의 컴포넌트 디자인 패턴 중 중요하다고 생각하는 개념을 이용할 수 있는 문제이며 `props`를 공부하기에도 적합하다고 생각하여 출제하였으니 풀어보시길 추천드립니다. 모르는 부분은 운영진에게 !!
 
+> Label, SupportingText, Input 컴포넌트를 구현하여, Input 컴포넌트의 내용이 없을 때 Submit 버튼이 클릭되면, Input의 테두리 색과 SupportingText 색을 빨간색으로 하게끔 한다.
+
+### 상세
+
 1. `Label` 컴포넌트를 구현한다. Label 컴포넌트는 `label` 태그를 리턴하는데, `id` prop을 받아 `label` 태그만의 속성인 `htmlFor` 프로퍼티에 넘겨준다. 또한 `children` prop을 이용하여 라벨 텍스트를 표시한다.
    (해당 `htmlFor` 속성은 특정 `input` HTML 요소에 라벨을 연결해줄 수 있는 속성으로, 자세한 내용은 꼭 구글링을 통해 찾아보세요.)
 2. `SupportingText` 컴포넌트를 구현한다.
