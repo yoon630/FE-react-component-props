@@ -48,6 +48,7 @@ const circleColorArr = [
 ![](https://github.com/likelion-Inha-12/FE-react-component-props/assets/121484561/bb99a1da-51b7-444d-8ecd-28d5b8300752)
 
 > 조건 : 클릭되었을 때 색깔은 자유롭게 해주시고, Button.css 파일은 건들지 말아주세요.
+> 
 > 힌트 : 각 button을 구별할 수 있는 구별자가 있어야 하지 않을까요 ? 또한 클릭 이벤트와 관련있지 않을까요 ?
 
 ## 어른사자의 길 문제
