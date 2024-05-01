@@ -1,6 +1,7 @@
 import "./Box.css";
 
 const Box = (props) => {
+  console.log(props);
   return (
     <div
       className="box"
@@ -8,7 +9,7 @@ const Box = (props) => {
         backgroundColor: props.boxColor || "black",
       }}
     >
-      <p></p>
+      <p>{props.text}</p>
     </div>
   );
 };
