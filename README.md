@@ -47,7 +47,7 @@ const circleColorArr = [
 
 다음과 같은 영상처럼 작동하도록 구현해주세요 ! `SelectButtons` 페이지 컴포넌트에 하나의 `useState`를 선언하시고, `Button` 컴포넌트를 구현하여 단 2가지의 props 만을 받도록 구현해주시면 됩니다 !
 
-![](https://github.com/likelion-Inha-12/FE-react-component-props/assets/121484561/bb99a1da-51b7-444d-8ecd-28d5b8300752)
+<img src="https://github.com/likelion-Inha-12/FE-react-component-props/assets/121484561/bb99a1da-51b7-444d-8ecd-28d5b8300752" />
 
 > 조건 : 클릭되었을 때 색깔은 자유롭게 해주시고, Button.css 파일은 건들지 말아주세요.
 > 
@@ -78,4 +78,4 @@ const circleColorArr = [
 4. `Input` 컴포넌트와 `Button` 컴포넌트가 있을 때, `Input`의 내용이 없는데 `Submit` 버튼을 클릭하면 error가 발생하며 `isError`가 true가 된다. 이 때 `useRef` 훅을 사용하여 `Input` 컴포넌트에 `ref`를 전달하여 구현한다. (Input 컴포넌트의 ref 참조 연결은 미리 해두었습니다.)
 5. `PlayGround.jsx` 파일에 출력하되, 해당 페이지에는 `Input`과 `Button` 두 개의 컴포넌트만 존재해야 한다.
 
-![](https://github.com/likelion-Inha-12/FE-react-component-props/assets/121484561/5de5f490-40b7-468d-b178-d4bbebf8cc4b)
+<img src="https://github.com/likelion-Inha-12/FE-react-component-props/assets/121484561/5de5f490-40b7-468d-b178-d4bbebf8cc4b" />
