@@ -67,9 +67,9 @@ const circleColorArr = [
    - children prop을 받아 화면에 표시한다.
    - `isError`라는 prop을 전달 받는데, `isError`가 `true`일 시 글자 색을 `red`로 `false`라면 검은색으로 표시한다.
 3. `Input` 컴포넌트를 구현한다.
-   - Label 컴포넌트의 id prop으로 넘겨줄 `label` prop을 받는다. 이는 input 태그의 `id` 속성이면서, label로 표시할 텍스트이다.
+   - Label 컴포넌트의 id prop으로 넘겨줄 `label` prop을 받는다. 이는 label 태그의 `id` prop이면서, label로 표시할 텍스트이다.
    - SupportingText 컴포넌트에서 표시할 text로 `supportingText` prop을 전달 받는다.
-   - 추가로 `isError`, `placeholder` prop을 전달 받는다.
+   - 추가로 `isError`, `placeholder` prop을 전달 받는다. -> `placeholder`는 input의 placeholder 속성에 연결해준다. (인풋 태그에 아무것도 입력하지 않았을 때 표시되는 텍스트 역할의 프로퍼티입니다.)
    - label prop이 있을 때만 `Label` 컴포넌트를 렌더링한다.
    - supportingText prop이 있을 때만 `SupportingText` 컴포넌트를 렌더링한다.
    - `Label`, `SupportingText` 컴포넌트가 전달받을 prop을 `Input` 컴포넌트가 먼저 전달받은 이후, 두 컴포넌트에 `prop`으로 전달해준다.
